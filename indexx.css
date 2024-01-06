@@ -1,0 +1,370 @@
+/*media query*/
+
+@media only screen and (min-width:600px) and (max-width:1000px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, .01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding: 24px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 25px;
+    }
+    #hero{
+   
+       height: 70vh;
+        position: relative;
+       
+    } 
+    #hero img{
+        width: 55%;
+        height:400px;
+        position: absolute;
+        left: 280px;
+        top:20px;
+    } 
+    #hero h4{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    #hero h1{
+        color: #088178;
+        font-size: 30px;
+    }
+    #hero p{
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+    #hero button{
+        background-image: url('./987-removebg-preview.png');
+        background-color: transparent;
+        color: #088178;
+        border: 0;
+        font-size: 20px;
+        padding: 14px 40px 14px 35px;
+        cursor: pointer;
+        background-size: cover;
+        font-weight: 700;
+    }
+    #feature{
+         height: 100vh;
+        justify-content: center;
+    }
+    #feature #fe-box{
+        padding: 10px 0px 10px 0px;
+        margin: 15px 0px;
+        
+        
+        
+    }
+    #productf{
+        text-align: center;
+        background-color: #f02dc2;
+        height: 250vh;
+       
+    }
+    #pro-container{
+        display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: center;
+       align-items: center;
+        padding-top: 20px;
+    }
+    #productf #pro{
+        width: 80%;
+        min-height: 250px;
+        padding: 10px 12px;
+        border: 1px solid #cce7d0;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, .02);
+        margin: 15px 0;
+        transition: 0.5s ease;
+        position: relative;
+       
+    }
+    #product1 #pro{
+        width: 80%;
+       
+    }
+    
+    
+    
+}
+@media only screen and (min-width:320px) and (max-width:600px) {
+    #header{
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        /* padding: 20px 70px; */
+        background-color: #1036ce;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .06); 
+        z-index: 999;
+        position: sticky;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: none;
+   }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        /* right: -300px; */
+        height: 100vh;
+        /* width: 300px; */
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, .01);
+        /* padding: 80px 0 0 10px; */
+        transition: 0.3s;
+        display: none;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding: 24px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 25px;
+    }
+    #hero{
+   
+       height: 70vh;
+        position: relative;
+       background-color: seagreen;
+    } 
+    #hero img{
+        width: 55%;
+        height:400px;
+        position: absolute;
+        left: 280px;
+        top:20px;
+    } 
+    #hero h4{
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    #hero h1{
+        color: #088178;
+        font-size: 30px;
+    }
+    #hero p{
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+    #hero button{
+        background-image: url('./987-removebg-preview.png');
+        background-color: transparent;
+        color: #088178;
+        border: 0;
+        font-size: 20px;
+        padding: 14px 40px 14px 35px;
+        cursor: pointer;
+        background-size: cover;
+        font-weight: 700;
+    }
+    #feature{
+         height:250vh;
+        justify-content: center;
+        background-color: chartreuse;
+    }
+    #feature #fe-box{
+        padding: 10px 0px 10px 0px;
+        margin: 15px 0px;
+        
+        
+        
+    }
+    #productf{
+        text-align: center;
+        background-color: #f02dc2;
+        height:600vh;
+       width: 100%;
+    }
+    #pro-container{
+        display: grid;
+       grid-template-columns: auto  ;
+       justify-content: center;
+       align-items: center;
+        padding-top: 20px;
+        width: 100%;
+    }
+    #productf #pro{
+        width: 90%;
+        margin: 1rem;
+        height: 400px;
+       
+    }
+    #productf #pro img {
+        width: 100%;
+        height: 200px;
+        
+        border-radius: 20px;
+        
+    }
+    
+    #product1 #pro{
+        width: 90%;
+        margin: 1rem;
+
+       
+    }
+    #hero img{
+       display: none;
+
+    } 
+    #sm-banner{
+        background-color: rgb(236, 135, 4);
+        width: 100%;
+
+     }
+    
+     #banner-box{
+        margin: 40px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        /* background-image: url("img/banner/b17.jpg"); */
+        height: 50vh;
+        width: 98%;
+        background-size: cover;
+        background-position: left; 
+         padding: 10px ;
+        border-radius: 15px;
+      
+    }
+ #banner-box1{
+        background-image: url("img/banner/b10.jpg");
+        margin: 40px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 50vh;
+        width:98%;
+        background-size: cover;
+        background-position: center;
+        padding: 30px ;
+        border-radius: 15px;
+        color:#fff;
+     }
+     #banner{
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("img/banner/b2.jpg");
+        height: 40vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-color: #1036ce;
+
+    
+    }
+    #banner h4{
+        color: #fff;
+        font-size: 1rem;
+    }
+    #banner h2 {
+        color: #fff;
+        font-size: 1rem;
+        padding: 10px 2px;
+    }
+    button.normal{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 7px 7px;
+        margin-top: 2rem;
+        color: #000;
+        background-color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+    }
+    button.normals{
+        font-size: 10px;
+        font-weight: 600;
+        padding: 5px 10px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: 0.2s;
+        height: 30px;
+        margin-top: 1rem;
+    }
+        
+#form{
+    height: 30px;
+}
+#newsletter input{
+    height: 30px;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius:0 ;
+    margin-top: 1rem;
+
+
+}
+
+}
